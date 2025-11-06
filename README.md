@@ -20,8 +20,8 @@ CSS3	Styling and animations
 JavaScript (Vanilla JS)	Logic and real-time updates
 Google Fonts	“Orbitron” for futuristic digital style
 
-🌈 Preview
-
+🌈 Preview-->
+https://anirbanchattaraj.github.io/Digital-Clock/
 Here’s what it looks like:
 
 🩵 A modern glass card,
