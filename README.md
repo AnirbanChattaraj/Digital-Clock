@@ -12,12 +12,14 @@ It displays the current time, date, and day, updating every second in real time.
 ✅ Futuristic Font & Glow — Uses Orbitron font with a neon cyan glow.
 ✅ Responsive Layout — Works smoothly on desktop, tablet, and mobile.
 
+
 🧠 Tech Stack
 Technology	Description
 HTML5	Structure of the clock
 CSS3	Styling and animations
 JavaScript (Vanilla JS)	Logic and real-time updates
 Google Fonts	“Orbitron” for futuristic digital style
+
 🌈 Preview
 
 Here’s what it looks like:
