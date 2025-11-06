@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@400;600&display=swap');
+
+body {
+  background: radial-gradient(circle at 20% 20%, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+.clock-container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  padding: 50px 80px;
+  border-radius: 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  animation: fadeIn 2s ease-out;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+#clock {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-shadow: 0 0 20px #00f0ff, 0 0 40px #00f0ff;
+  margin-bottom: 15px;
+  transition: text-shadow 0.3s ease;
+}
+
+#clock:hover {
+  text-shadow: 0 0 30px #00f0ff, 0 0 60px #00f0ff;
+}
+
+#date {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #cce7ff;
+  opacity: 0.8;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
